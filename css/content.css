@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+/* SITE ##################################################################### */
+
+body {
+	color: #585858;
+}
+
+@media (min-width: 1200px) {
+	#about {
+		background-image: url('../img/java.svg');
+		background-repeat: no-repeat;
+		background-position: right top;
+		background-size: 12rem;
+	}
+}
+
+/* HEADINGS ################################################################# */
+
+h1 {
+	font-family: "Indie Flower";
+}
+
+h2 {
+	font-family: "Source Sans Pro";
+	font-weight: 300;
+	color: #ef675d;
+	margin-bottom: 1rem;
+}
+
+/* LINKS #################################################################### */
+
+a, a:focus, a:hover, a:active {
+	color: #ef675d;
+	outline: none;
+	border-bottom: 1px #ef675d dotted;
+	text-decoration: none;
+}
+
+a.special {
+	border: none;
+	color: #585858;
+}
+
+/* LABELS ################################################################### */
+
+.btn {
+	margin-top: 0.125rem;
+	margin-bottom: 0.125rem;
+}
+
+.btn-primary,
+.btn-primary:focus,
+.btn-primary:hover,
+.btn-primary:active {
+	background-color: #ef675d !important;
+	border-color: #ef675d !important;
+}
+
+.btn-static,
+.btn-static:focus,
+.btn-static:hover,
+.btn-static:active {
+	background-color: #efefef !important;
+	color: #585858 !important;
+	border-color: #dadada !important;
+	cursor: default;
+}
+
+/* ICONS #################################################################### */
+
+i {
+	margin-right: 0.25rem;
+}
+
+i + a + a[data-toggle="popover"] {
+	margin-left: 0.5rem;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+i + a + a[data-toggle="popover"] > i {
+	margin-right: 0;
+}
+
+/* NAVIGATION ############################################################### */
+
+.navbar {
+	background-color: #585858;
+	background: rgba(0,0,0,.6) url('../img/bg-stripe.png') bottom left repeat-x;
+}
+
+.navbar a {
+	border-bottom: inherit;
+}
+
+.navbar button {
+	color: #fff;
+}
+
+.nav-link {
+	font-family: "Source Sans Pro";
+	font-weight: 300;
+}
+
+.navbar-fix {
+	height: 55px;
+	background: #efefef url('../img/bg.png');
+}
+
+/* HEADER ################################################################### */
+
+.jumbotron {
+	padding: 1.5rem 2rem;
+	background: #efefef url('../img/bg.png');
+}
+
+.img-header {
+	margin-right: 20px;
+}
+
+/* FOOTER ################################################################### */
+
+.footer {
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 2rem;
+	padding: 0.5rem;
+	background: #efefef;
+	border-top: 1px #dadada solid;
+}
+
+.footer i {
+	margin-right: 0;
+	color: #ef675d;
+}
+
+/* TEXT HIGHLIGHTS ########################################################## */
+
+.text-primary {
+	color: #ef675d !important;
+}
+
+.text-muted {
+	color: #bbb !important;
+}
+
+#about strong,
+#contact strong {
+	background: #efefef;
+	border-radius: .3rem;
+	padding: 0 5px;
+	font-weight: inherit;
+}
+
+/* ROW HIGHLIGHTS ########################################################### */
+
+.first-lvl {
+	margin-bottom: 0.5rem;
+}
+
+.second-lvl {
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0.5rem;
+}
+
+.second-lvl:first-child {
+	margin-top: 1rem;
+}
+
+.second-lvl div:first-child {
+	background: #efefef;
+	border-left: 3px solid #dadada;
+	border-radius: .3rem;
+}
+
+/* ENUMERATIONS ############################################################# */
+
+ul.ul-text,
+ul.ul-points {
+	margin-bottom: 0;
+}
+
+ul.ul-text li {
+	margin-top: 0.5rem;
+}
+
+ul.ul-text li:first-child {
+	margin-top: 0;
+}
+
+/* ALERT #################################################################### */
+
+.alert-danger {
+
+	background: rgba(239, 103, 93, 0.1);
+	border: none;
+	color: #ef675d;
+	margin-bottom: 2rem;
+}
+
+/* HELPER ################################################################### */
+
+.vspace {
+	display: block;
+	height: 1rem;
+}
+
+.vspace-0-75 {
+	display: block;
+	height: 0.75rem;
+}
+
+.vspace-0-5 {
+	display: block;
+	height: 0.5rem;
+}
+
+.vspace-0-25 {
+	display: block;
+	height: 0.25rem;
+}
