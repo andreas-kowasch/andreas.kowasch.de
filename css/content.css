@@ -9,7 +9,7 @@ body {
 
 @media (min-width: 1200px) {
 	#about {
-		background-image: url('../img/java.svg');
+		background-image: url('../img/k8s.png');
 		background-repeat: no-repeat;
 		background-position: right top;
 		background-size: 12rem;
